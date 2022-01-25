@@ -38,7 +38,18 @@
 				<tr>
 					<th>생년월일</th>
 					<td><input id="in1" type="text" name="password"></td>
-				</tr>						
+				</tr>
+				<tr>
+					<th>이메일</th>
+					<td><input id="in2" type="text" name="mail1">
+					<span>@</span>
+					<select id="sel1" name="mail2">
+						<option value="naver.com" selected>naver.com</option>
+						<option value="daum.net">naver.com</option>
+						<option value="nate.com">naver.com</option>
+						<option value="gmail.com">naver.com</option>
+					</select></td>
+				</tr>										
 			</table>
 		</form>
 	</section>
